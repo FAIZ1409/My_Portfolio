@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1e1e1e;
+}
+
+.header, .footer {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    border: 2px solid #444;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav button:hover {
+    background-color: #555;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #f9c74f;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f9c74f;
+    margin: 20px 0;
+}
+
+/* Projects Page */
+.project-box {
+    background-color: #2c2c2c;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    background-color: #444;
+}
+
+.project-box h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.project-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-box button:hover {
+    background-color: darkorange;
+}
